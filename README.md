@@ -1,2 +1,4 @@
-# Password-Generator-Free-Please-enjoy
-Here is a free password generator I had to make for my class. Please enjoy!
+## Hello! ##
+# Free password Generator #
+
+Here is a free Password generator that I made. Please use it as freely as possible. You can never be too safe.
