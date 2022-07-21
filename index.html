@@ -13,8 +13,19 @@
             Generate Password <i class="fab fa-keycdn"></i>
         </button>
         <div class="slider-main">
-            <input type="range" value="10" min="8" max="32" class="slidebar" oninput="this.nextElementsibling.value">
+            <input type="range" value="10" min="8" max="32" class="slidebar" oninput="this.nextElementsibling.value = this.value" id="slider">
+            <output>8</output>    
         </div>
+        <label class="container" style="font-family: fantasy;color: rgb(3, 3, 3);">Include special characters <input type="checkbox" checked="checked" id="checkbox">
+            <span class="checkmark"></span>
+        </label>
     </header>
+    <div class="wrapper-main">
+        <h5 id="pwd_txt"></h5>
+        <button id="clipboard" class="clipboard">
+            <i class="fas fa-clipboard"></i>
+        </button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
